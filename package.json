@@ -1,0 +1,37 @@
+{
+    "name": "@waqasibrahim/gulp-crx",
+    "version": "1.0.0",
+    "description": "Create a CRX file for Chrome or Opera using gulp",
+    "keywords": [
+        "crx",
+        "gulp crx"
+    ],
+    "homepage": "https://github.com/WaqasIbrahim/gulp-crx#readme",
+    "bugs": {
+        "url": "https://github.com/WaqasIbrahim/gulp-crx/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/WaqasIbrahim/gulp-crx.git"
+    },
+    "license": "ISC",
+    "author": "Waqas Ibrahim <waqas.abrahim@gmail.com>",
+    "files": [
+        "index.js"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "dependencies": {
+        "crx": "^5.0.1",
+        "through2": "^3.0.1",
+        "vinyl": "^2.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.20.1",
+        "mocha": "^7.0.1"
+    }
+}
