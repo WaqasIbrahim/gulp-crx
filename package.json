@@ -21,7 +21,8 @@
     ],
     "main": "index.js",
     "scripts": {
-        "test": "mocha"
+        "test": "mocha",
+        "publishGithub": "npm publish --@waqasibrahim:registry=https://npm.pkg.github.com"
     },
     "dependencies": {
         "crx": "^5.0.1",
