@@ -26,13 +26,13 @@
     },
     "dependencies": {
         "crx": "^5.0.1",
-        "through2": "^3.0.1",
-        "vinyl": "^2.2.0"
+        "through2": "^4.0.2",
+        "vinyl": "^2.2.1"
     },
     "devDependencies": {
-        "eslint": "^6.8.0",
-        "eslint-config-airbnb-base": "^14.0.0",
-        "eslint-plugin-import": "^2.20.1",
-        "mocha": "^7.0.1"
+        "eslint": "^8.13.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "mocha": "^9.2.2"
     }
 }
