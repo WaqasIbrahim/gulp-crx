@@ -1,6 +1,6 @@
 {
     "name": "@waqasibrahim/gulp-crx",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Create a CRX file for Chrome or Opera using gulp",
     "keywords": [
         "crx",
@@ -17,7 +17,8 @@
     "license": "ISC",
     "author": "Waqas Ibrahim <waqas.abrahim@gmail.com>",
     "files": [
-        "index.js"
+        "index.js",
+        "index.d.ts"
     ],
     "main": "index.js",
     "types": "index.d.ts",
@@ -31,9 +32,9 @@
         "vinyl": "^2.2.1"
     },
     "devDependencies": {
-        "eslint": "^8.13.0",
+        "eslint": "^8.57.0",
         "eslint-config-airbnb-base": "^15.0.0",
-        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-import": "^2.29.1",
         "mocha": "^9.2.2"
     }
 }
